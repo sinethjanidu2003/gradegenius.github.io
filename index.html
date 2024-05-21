@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade Genius</title>
+    <!-- Boostrap CSS Files -->
+    <link href="assest/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Styling -->
+    <link href="assest/style.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+
+<!-- Toolbar -->
+<div class="d-flex">
+    <div id="sidebar" class="bg-light border-right">
+
+        <ul class="list-unstyled links">
+            <div class="sidebar-header p-3" >
+                <h4 class="sidebar-text" >Grade Genius</h4>
+                <hr class="hr-sperator">
+            </div>
+            <li class="p-3">
+                <a href="index.html" class="sidebar-links active">
+                    <i class="fa-solid fa-house icon"></i>
+                    <h5 class="sidebar-link-text active">Home</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="class.html" class="sidebar-links">
+                    <i class="fa fa-book icon"></i>
+                    <h5 class="sidebar-link-text">Classes</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="#" class="sidebar-links">
+                    <i class="fa-solid fa-file-signature icon"></i>
+                    <h5 class="sidebar-link-text">Rubrics</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="#" class="sidebar-links">
+                    <i class="fa-solid fa-laptop icon"></i>
+                    <h5 class="sidebar-link-text">Resources</h5>
+                </a>
+            </li>
+
+            <div class="sidebar-bottom">
+
+                <li class="p-3">
+                    <a href="#" class="sidebar-links">
+                        <i class="fa-solid fa-gear icon"></i>
+                        <h5 class="sidebar-link-text">Settings</h5>
+                    </a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="sidebar-links">
+                        <i class="fa-solid fa-circle-question icon"></i>
+                        <h5 class="sidebar-link-text">Support</h5>
+                    </a>
+                </li>
+            </div>
+
+
+
+        </ul>
+    </div>
+    <div id="content">
+        <div class="container content-container">
+                <h2 class="contain-header-text">Classes</h2>
+            <button class="btn btn-text" > + Add Class</button>
+
+
+            <div class="card-container">
+
+                <div class="card card-body" onclick="moveforward()">
+                    <div class="text-container">
+
+                        <h6>
+                            ADMN 5018
+                            Coding For Business
+                            Analytics
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        3 Assignments
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="card card-body" onclick="moveforward()">
+                    <div class="text-container">
+
+                        <h6>
+                            ADMN 5006
+                            Financial Analytics
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        4 Assignments
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="card card-body" onclick="moveforward()">
+                    <div class="text-container">
+
+                        <h6>
+                            ADMN 5018
+                            Coding For Business
+                            Analytics
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        1 Assignments
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="card card-body" onclick="moveforward()">
+                    <div class="text-container">
+
+                        <h6>
+                            ADMN 5018
+                            Coding For Business
+                            Analytics
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        3 Assignments
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <hr></hr>
+
+        <div class="container content-container">
+            <h2 class="contain-header-text">Rubrics</h2>
+            <button class="btn btn-text" > + Add Rubric</button>
+
+
+            <div class="card-container">
+
+                <div class="card card-body">
+                    <div class="text-container">
+
+                        <h6>
+                            R Flights Data Assignment
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        View Rubric
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="card card-body">
+                    <div class="text-container">
+
+                        <h6>
+                            Python Midterm
+                        </h6>
+                    </div>
+
+
+                    <div class="card-assign-link">
+                        View Rubric
+                        <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="mobile-toolbar" class="d-md-none">
+    <a href="#" class="btn btn-outline-primary">Home</a>
+    <a href="#" class="btn btn-outline-primary">Classes</a>
+    <a href="#" class="btn btn-outline-primary">Rubrics</a>
+    <a href="#" class="btn btn-outline-primary">Resources</a>
+</div>
+
+
+<!-- Boostrap JS Files -->
+<script src="assest/bootstrap/js/bootstrap.min.js"></script>
+<script src="assest/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function moveforward(){
+        window.location.href = 'class.html';
+
+    }
+</script>
+
+</body>
+</html>

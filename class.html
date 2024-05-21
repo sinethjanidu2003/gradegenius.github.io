@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade Genius</title>
+    <!-- Boostrap CSS Files -->
+    <link href="assest/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Styling -->
+    <link href="assest/style.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+
+<!-- Toolbar -->
+<div class="d-flex">
+    <div id="sidebar" class="bg-light border-right">
+
+        <ul class="list-unstyled links">
+            <div class="sidebar-header p-3" >
+                <h4 class="sidebar-text" >Grade Genius</h4>
+                <hr class="hr-sperator">
+            </div>
+            <li class="p-3">
+                <a href="index.html" class="sidebar-links">
+                    <i class="fa-solid fa-house icon"></i>
+                    <h5 class="sidebar-link-text">Home</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="class.html" class="sidebar-links active">
+                    <i class="fa fa-book icon"></i>
+                    <h5 class="sidebar-link-text active">Classes</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="#" class="sidebar-links">
+                    <i class="fa-solid fa-file-signature icon"></i>
+                    <h5 class="sidebar-link-text">Rubrics</h5>
+                </a>
+            </li>
+            <li class="p-3">
+                <a href="#" class="sidebar-links">
+                    <i class="fa-solid fa-laptop icon"></i>
+                    <h5 class="sidebar-link-text">Resources</h5>
+                </a>
+            </li>
+
+            <div class="sidebar-bottom">
+
+                <li class="p-3">
+                    <a href="#" class="sidebar-links">
+                        <i class="fa-solid fa-gear icon"></i>
+                        <h5 class="sidebar-link-text">Settings</h5>
+                    </a>
+                </li>
+                <li class="p-3">
+                    <a href="#" class="sidebar-links">
+                        <i class="fa-solid fa-circle-question icon"></i>
+                        <h5 class="sidebar-link-text">Support</h5>
+                    </a>
+                </li>
+            </div>
+
+
+
+        </ul>
+    </div>
+    <div id="content" class="page-context">
+        <div class="page-heading">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <h4 class="page-heading-text">
+                ADMN 5018 Coding For Business Analytics
+            </h4>
+        </div>
+
+
+        <div class="container content-container">
+            <h2 class="contain-header-text" style="font-weight: 200">Assignments</h2>
+            <button class="btn btn-text" > + Add Assignment</button>
+        </div>
+
+        <div class="container-fluid table-container">
+            <table class="table table-hover">
+                <tr>
+                    <th>Assignment Name</th>
+
+                </tr>
+                <tbody>
+                <tr onclick="moveforward()">
+                    <td>R Assignment
+                        <span style="float: right;"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+                <tr onclick="moveforward()">
+                    <td>Python Midterm
+                        <span style="float: right;"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+                <tr onclick="moveforward()">
+                    <td>Two Buisness Case
+                        <span style="float: right;"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="mobile-toolbar" class="d-md-none">
+    <a href="#" class="btn btn-outline-primary">Home</a>
+    <a href="#" class="btn btn-outline-primary">Classes</a>
+    <a href="#" class="btn btn-outline-primary">Rubrics</a>
+    <a href="#" class="btn btn-outline-primary">Resources</a>
+</div>
+
+
+<!-- Boostrap JS Files -->
+<script src="assest/bootstrap/js/bootstrap.min.js"></script>
+<script src="assest/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+    function moveforward(){
+        window.location.href = 'assignment.html';
+
+    }
+</script>
+
+</body>
+</html>
