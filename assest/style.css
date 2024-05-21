@@ -32,6 +32,8 @@ a{
     color: black;
 }
 
+
+
 .btn-text{
     font-size: 20px;
     font-weight: 500;
@@ -234,5 +236,10 @@ Note : Some browsers won't accept scollbars
         justify-content: space-around;
         padding: 10px;
     }
+
+     .page-context{
+        margin-left: 10px;
+    }
+
 }
 
